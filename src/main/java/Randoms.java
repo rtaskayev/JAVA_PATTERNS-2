@@ -3,10 +3,10 @@ import java.util.Random;
 
 public class Randoms implements Iterable<Integer> {
 
-    protected Random random = new Random();
+    private Random random = new Random();
 
-    int min;
-    int max;
+    private int min;
+    private int max;
 
     public Randoms(int min, int max) {
         this.min = min;
